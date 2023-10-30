@@ -1,0 +1,5 @@
+*.densities
+*.gbw
+.DS_Store
+*.cube
+.ipynb_checkpoints

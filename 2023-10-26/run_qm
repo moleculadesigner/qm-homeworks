@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+hwdir=$(pwd)
+for system in nitrogen carbon_oxide ethylene_glycol
+do
+    cd $hwdir/$system
+    for inp in *.inp
+    do
+        molecule="${inp%%.*}"
+        echo Running $molecule ...
+        orca $inp > $molecule.log
+        echo 'Done\n'
+    done
+done

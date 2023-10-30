@@ -1,0 +1,40 @@
+1  # select type:
+1  # MO
+5  # select output format:
+7  # cube
+4  # select resolution
+80 # ngrid
+2  # select orbital number
+0  # orbital index
+10 # create file
+2  # select orbital number
+1  # orbital index
+10 # create file
+2  # select orbital number
+2  # orbital index
+10 # create file
+2  # select orbital number
+3  # orbital index
+10 # create file
+2  # select orbital number
+4  # orbital index
+10 # create file
+2  # select orbital number
+5  # orbital index
+10 # create file
+2  # select orbital number
+6  # orbital index
+10 # create file
+2  # select orbital number
+7  # orbital index
+10 # create file
+2  # select orbital number
+8  # orbital index
+10 # create file
+2  # select orbital number
+9  # orbital index
+10 # create file
+2  # select orbital number
+10 # orbital index
+10 # create file
+11 # quit program

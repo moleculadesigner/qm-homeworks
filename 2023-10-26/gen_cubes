@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+hwdir=$(pwd)
+for system in nitrogen carbon_oxide ethylene_glycol
+do
+    cd $hwdir/$system
+    for gbw in *.gbw
+    do
+        molecule="${gbw%%.*}"
+        echo Making orbital maps for "${gbw%%.*}" ...
+        cat $hwdir/plot_script | orca_plot $gbw -i > cubes.log
+        echo 'Done\n'
+    done
+done
